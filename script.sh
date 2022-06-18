@@ -1,6 +1,6 @@
 #!/bin/bash
 # get the certificate
-mkdir /cert/
+mkdir /certs/
 curl https://raw.githubusercontent.com/DhanusML/arch-iiscwlan-config/master/IISc-DC1-CA.crt > /cert/IISc-DC1-CA.crt
 
 # get the iwd.config file
