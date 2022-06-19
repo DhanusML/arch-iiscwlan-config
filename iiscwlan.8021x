@@ -1,10 +1,18 @@
 [Security]
 EAP-Method=PEAP
-EAP-Identity=anonymous.iisc.ac.in
-EAP-PEAP-CACert=/certs/IISc-DC1-CA.crt
+
+EAP-Identity=anonymous@iisc.ac.in
+
 EAP-PEAP-Phase2-Method=MSCHAPV2
-EAP-PEAP-Phase2-Identity=<id>@iisc.ac.in # email id
-EAP-PEAP-Phase2-Password=<password> # password
+
+# enter email id
+EAP-PEAP-Phase2-Identity=<id>@iisc.ac.in
+
+# enter password
+EAP-PEAP-Phase2-Password=<password>
+
+
 
 [Settings]
-# AutoConnect=true # uncomment this for autoconnect
+# uncomment the line below for autoconnect
+# AutoConnect=true 

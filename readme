@@ -1,2 +1,0 @@
-copy "./iiscwlan.8021x" to /var/lib/iwd/
-copy "./main.conf" to /etc/iwd/ and restart iwd by executing "#systemctl restart iwd.service"
