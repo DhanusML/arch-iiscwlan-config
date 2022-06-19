@@ -3,7 +3,7 @@
 ## Instructions
 1. Copy *iiscwlan.8021x* to */var/lib/iwd/*. Fill email-id and password in the file.
 2. Copy *main.conf* to */etc/iwd/*
-3. Restart iwd by running **# systemctl restart iwd.service**
+3. Restart iwd by running **systemctl restart iwd.service**
 4. Connect to network using iwctl [how to connect](https://wiki.archlinux.org/title/Iwd#Connect_to_a_network).
 
 ## The script
@@ -12,7 +12,7 @@ and password in).
 ```
 curl https://raw.githubusercontent.com/DhanusML/arch-iiscwlan-config/master/script.sh > script.sh
 ```
-and enable execute mode by running **# chmod 744 script.sh**.
+and enable execute mode by running **chmod 744 script.sh**.
 
 
 ## Notes
